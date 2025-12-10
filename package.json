@@ -1,7 +1,7 @@
 {
 	"name": "foxpro",
-	"displayName": "FoxPro Syntax Highlighting",
-	"description": "Syntax Highlighting and Snippets for Visual FoxPro",
+	"displayName": "FoxPro.sc2 Syntax Highlighting",
+	"description": "Syntax Highlighting and Snippets for FoxPro SC2 files",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/newdatasystems/vscode-foxpro.git"
