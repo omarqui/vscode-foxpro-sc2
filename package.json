@@ -1,7 +1,7 @@
 {
 	"name": "foxpro",
-	"displayName": "FoxPro Syntax Highlighting",
-	"description": "Syntax Highlighting and Snippets for Visual FoxPro",
+	"displayName": "FoxPro.sc2 Syntax Highlighting",
+	"description": "Syntax Highlighting and Snippets for FoxPro SC2 files",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/newdatasystems/vscode-foxpro.git"
@@ -20,34 +20,34 @@
 	],
 	"contributes": {
 		"configurationDefaults": {
-			"[foxpro]": {
+			"[foxbin2prg]": {
 				"files.encoding": "windows1252"
 			}
 		},
 		"languages": [
 			{
-				"id": "foxpro",
+				"id": "foxbin2prg",
 				"aliases": [
 					"foxpro",
 					"Visual FoxPro",
 					"VFP"
 				],
 				"extensions": [
-					".prg",
-					".PRG"
+					".sc2",
+					".SC2"
 				],
 				"configuration": "./foxpro-configuration.json"
 			}
 		],
 		"snippets": [
 			{
-				"language": "foxpro",
+				"language": "foxbin2prg",
 				"path": "./snippets/foxpro_snippets.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "foxpro",
+				"language": "foxbin2prg",
 				"scopeName": ".foxpro",
 				"path": "./syntaxes/foxpro.plist"
 			}

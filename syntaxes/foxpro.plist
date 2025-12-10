@@ -6,7 +6,7 @@
 	<string>Modified from the original ASP bundle. Originally modified by Thomas Aylott subtleGradient.com</string>
 	<key>fileTypes</key>
 	<array>
-		<string>prg</string>
+		<string>sc2</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~A</string>
