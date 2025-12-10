@@ -5,6 +5,10 @@
 	"scripts": {
 		"package": "vsce package"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/omarqui/vscode-foxpro-sc2.git"
+	},
 	"icon": "fox.png",
 	"version": "1.4.12",
 	"author": "Tom Bellin",
