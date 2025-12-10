@@ -11,7 +11,7 @@
 	<key>keyEquivalent</key>
 	<string>^~A</string>
 	<key>name</key>
-	<string>FoxPro</string>
+	<string>foxbin2prg</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -86,18 +86,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.foxpro</string>
+					<string>storage.type.function.foxbin2prg</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.foxpro</string>
+					<string>entity.name.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>\s*(?i:prot|protected\s*)?((?i:function|func|procedure|proc))\s*([a-zA-Z_]\w*)</string>
 			<key>name</key>
-			<string>meta.function.foxpro</string>
+			<string>meta.function.foxbin2prg</string>
 		</dict>
         <dict>
 			<key>captures</key>
@@ -105,28 +105,28 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.foxpro</string>
+					<string>storage.type.function.foxbin2prg</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.class.foxpro</string>
+					<string>entity.name.class.foxbin2prg</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.foxpro</string>
+					<string>entity.name.foxbin2prg</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.foxpro</string>
+					<string>entity.name.function.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^\s*((?i:defi|define)\s*(?i:class))\s*([a-zA-Z_]\w*)\s*(?i:as)\s*([a-zA-Z_]\w*)\s*(?i:of)?\s*([a-zA-Z_][^\s]*)?</string>
 			<key>name</key>
-			<string>meta.class.foxpro</string>
+			<string>meta.class.foxbin2prg</string>
         </dict>
 		<dict>
 			<key>begin</key>
@@ -136,7 +136,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.whitespace.comment.leading.foxpro</string>
+					<string>punctuation.whitespace.comment.leading.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -151,13 +151,13 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.foxpro</string>
+							<string>punctuation.definition.comment.foxbin2prg</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\n</string>
 					<key>name</key>
-					<string>comment.line.apostrophe.foxpro</string>
+					<string>comment.line.apostrophe.foxbin2prg</string>
 				</dict>
 			</array>
 		</dict>
@@ -169,7 +169,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.whitespace.comment.leading.foxpro</string>
+					<string>punctuation.whitespace.comment.leading.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -184,13 +184,13 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.foxpro</string>
+							<string>punctuation.definition.comment.foxbin2prg</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\n</string>
 					<key>name</key>
-					<string>comment.line.apostrophe.foxpro</string>
+					<string>comment.line.apostrophe.foxbin2prg</string>
 				</dict>
 			</array>
 		</dict>
@@ -198,13 +198,13 @@
 			<key>match</key>
 			<string>(?i:\b(If|Else|endif|Case|endcase|other|otherwise|Select|Return|With|EndWith|IIf|Try|Catch|EndTry|repl|replace)\b)</string>
 			<key>name</key>
-			<string>keyword.control.foxpro</string>
+			<string>keyword.control.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Do|While|EndDo|For|To|Each|Continue|Loop|Next|Exit|scan|ends|endscan|endfor|endf)\b)</string>
 			<key>name</key>
-			<string>keyword.control.loop.foxpro</string>
+			<string>keyword.control.loop.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -261,19 +261,19 @@
 							wlcol|wlro|wlrow|wmax|wmaximum|wmin|wminimum|wont|wontop|wout|woutput|wpar|wparent|wrap|wrk|wrow|wrows|wtit|wtitle|wvis|wvisible|xls|xmlt|xmltocursor|xmlu|xmlupdategram|
 							year|ymd|zap|zoom)\b)</string>
 			<key>name</key>
-			<string>support.function.foxpro</string>
+			<string>support.function.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(endf|endfunc|endproc|endp)\b)</string>
 			<key>name</key>
-			<string>keyword.foxpro</string>
+			<string>keyword.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Mod|And|Not|Or|Xor|as)\b)</string>
 			<key>name</key>
-			<string>keyword.operator.foxpro</string>
+			<string>keyword.operator.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -281,35 +281,35 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.foxpro</string>
+					<string>storage.type.foxbin2prg</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.other.bfeac.foxpro</string>
+					<string>variable.other.bfeac.foxbin2prg</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>meta.separator.comma.foxpro</string>
+					<string>meta.separator.comma.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(?i:(dim)\s*(?:(\b[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b)\s*(,?)))</string>
 			<key>name</key>
-			<string>variable.other.dim.foxpro</string>
+			<string>variable.other.dim.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\s*\b(Define Class|EndDefine|Dimension|Function|Procedure|EndFunc|EndProc|On Error)\b\s*)</string>
 			<key>name</key>
-			<string>storage.type.foxpro</string>
+			<string>storage.type.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Private|Public|Local)\b)</string>
 			<key>name</key>
-			<string>storage.modifier.foxpro</string>
+			<string>storage.modifier.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -319,7 +319,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.foxpro</string>
+					<string>punctuation.definition.string.begin.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -329,18 +329,18 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.foxpro</string>
+					<string>punctuation.definition.string.end.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.foxpro</string>
+			<string>string.quoted.double.foxbin2prg</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>("")</string>
 					<key>name</key>
-					<string>constant.character.escape.apostrophe.foxpro</string>
+					<string>constant.character.escape.apostrophe.foxbin2prg</string>
 				</dict>
 			</array>
 		</dict>
@@ -352,7 +352,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.foxpro</string>
+					<string>punctuation.definition.string.begin.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -362,11 +362,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.foxpro</string>
+					<string>punctuation.definition.string.end.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.foxpro</string>
+			<string>string.quoted.double.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -376,7 +376,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.foxpro</string>
+					<string>punctuation.definition.string.begin.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -386,11 +386,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.foxpro</string>
+					<string>punctuation.definition.string.end.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.bracket.foxpro</string>
+			<string>string.quoted.bracket.foxbin2prg</string>
 		</dict>
 
 		
@@ -402,13 +402,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.foxpro</string>
+					<string>punctuation.definition.variable.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(&lt;&lt;|&gt;&gt;)\s*</string>
 			<key>name</key>
-			<string>variable.textmerge.markers.foxpro</string>
+			<string>variable.textmerge.markers.foxbin2prg</string>
 		</dict>
 
 		
@@ -418,73 +418,73 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.foxpro</string>
+					<string>punctuation.definition.variable.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b\s*</string>
 			<key>name</key>
-			<string>variable.other.foxpro</string>
+			<string>variable.other.foxbin2prg</string>
 		</dict> -->
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Application|ObjectContext|Request|Response|Server|Session)\b)</string>
 			<key>name</key>
-			<string>support.class.foxpro</string>
+			<string>support.class.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables)\b)</string>
 			<key>name</key>
-			<string>support.class.collection.foxpro</string>
+			<string>support.class.collection.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(TotalBytes|Buffer|CacheControl|Charset|ContentType|Expires|ExpiresAbsolute|IsClientConnected|PICS|Status|ScriptTimeout|CodePage|LCID|SessionID|Timeout)\b)</string>
 			<key>name</key>
-			<string>support.constant.foxpro</string>
+			<string>support.constant.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Lock|Unlock|SetAbort|SetComplete|BinaryRead|AddHeader|AppendToLog|BinaryWrite|Clear|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon|Convert|Regex)\b)</string>
 			<key>name</key>
-			<string>support.function.foxpro</string>
+			<string>support.function.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Application_OnEnd|Application_OnStart|OnTransactionAbort|OnTransactionCommit|Session_OnEnd|Session_OnStart)\b)</string>
 			<key>name</key>
-			<string>support.function.event.foxpro</string>
+			<string>support.function.event.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:(?&lt;=as )(\b[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b))</string>
 			<key>name</key>
-			<string>support.type.foxpro</string>
+			<string>support.type.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(Array|Add|Asc|Atn|CBool|CByte|CCur|CDate|CDbl|Chr|CInt|CLng|Conversions|Cos|CreateObject|CSng|CStr|Date|DateAdd|DateDiff|DatePart|DateSerial|DateValue|Day|Derived|Math|Escape|Eval|Exists|Exp|Filter|FormatCurrency|FormatDateTime|FormatNumber|FormatPercent|GetLocale|GetObject|GetRef|Hex|Hour|InputBox|InStr|InStrRev|Int|Integer|Fix|IsArray|IsDate|IsEmpty|IsNull|IsNumeric|IsObject|Item|Items|Join|Keys|LBound|LCase|Left|Len|LoadPicture|Log|LTrim|RTrim|Trim|Maths|Mid|Minute|Month|MonthName|MsgBox|Now|Oct|Remove|RemoveAll|Replace|RGB|Right|Rnd|Round|ScriptEngine|ScriptEngineBuildVersion|ScriptEngineMajorVersion|ScriptEngineMinorVersion|Second|SetLocale|Sgn|Sin|Space|Split|Sqr|StrComp|String|StrReverse|Tan|Time|Timer|TimeSerial|TimeValue|TypeName|UBound|UCase|Unescape|VarType|Weekday|WeekdayName|Year)\b)</string>
 			<key>name</key>
-			<string>support.function.foxpro</string>
+			<string>support.function.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>-?\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\b</string>
 			<key>name</key>
-			<string>constant.numeric.foxpro</string>
+			<string>constant.numeric.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:(\.t\.|\.f\.|\.null\.|null))</string>
 			<key>name</key>
-			<string>constant.numeric.foxpro</string>
+			<string>constant.numeric.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?i:\b(vbtrue|vbfalse|vbcr|vbcrlf|vbformfeed|vblf|vbnewline|vbnullchar|vbnullstring|int32|vbtab|vbverticaltab|vbbinarycompare|vbtextcomparevbsunday|vbmonday|vbtuesday|vbwednesday|vbthursday|vbfriday|vbsaturday|vbusesystemdayofweek|vbfirstjan1|vbfirstfourdays|vbfirstfullweek|vbgeneraldate|vblongdate|vbshortdate|vblongtime|vbshorttime|vbobjecterror|vbEmpty|vbNull|vbInteger|vbLong|vbSingle|vbDouble|vbCurrency|vbDate|vbString|vbObject|vbError|vbBoolean|vbVariant|vbDataObject|vbDecimal|vbByte|vbArray)\b)</string>
 			<key>name</key>
-			<string>support.type.foxpro</string>
+			<string>support.type.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -492,19 +492,19 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.foxpro</string>
+					<string>entity.name.function.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(?i:(\b[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b)(?=\(\)?))</string>
 			<key>name</key>
-			<string>support.function.foxpro</string>
+			<string>support.function.foxbin2prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>!|\*|\$|%|&amp;|\-|\-|\+|\+|~|==|==|=|!=|&lt;=|&gt;=|&lt;&gt;|&lt;|&gt;|!</string>
 			<key>name</key>
-			<string>keyword.operator.foxpro</string>
+			<string>keyword.operator.foxbin2prg</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -518,7 +518,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.round-brackets.begin.foxpro</string>
+					<string>punctuation.section.round-brackets.begin.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -528,7 +528,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.round-brackets.end.foxpro</string>
+					<string>punctuation.section.round-brackets.end.foxbin2prg</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -543,7 +543,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>.foxpro</string>
+	<string>source.foxbin2prg</string>
 	<key>uuid</key>
 	<string>7F9C9363-D28E-4A7D-BFA8-F6A071ADCA3E</string>
 </dict>
