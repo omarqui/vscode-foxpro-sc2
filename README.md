@@ -3,6 +3,8 @@
 
 This extension adds generic syntax highlighting for foxpro (including function and class definition detection).
 
+Supported file extensions: `.sc2`, `.SC2`, `.vc2`, `.VC2`.
+
 ![alt text](screenshot.png "screenshot") 
 
 ### How to Install
